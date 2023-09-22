@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Function library example</title>
-    <style>
-      input {
-        font-size: 2em;
-        margin: 10px 1px 0;
-      }
-    </style>
-  </head>
-  <body>
-    <a href="functions-first.html" target="_blank" rel="noopener noreferrer"
-      >FIRST PAGE</a
-    >
-    <input class="numberInput" type="text" />
-    <p></p>
 
-    <script>
       const input = document.querySelector(".numberInput");
       const para = document.querySelector("p");
       function squared(num) {
@@ -54,6 +34,4 @@
           para.textContent += `${num} squareroot is ${squareroot(num)}. `;
         }
       });
-    </script>
-  </body>
-</html>
+    
