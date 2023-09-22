@@ -10,6 +10,9 @@ function cubed(num) {
 function squareroot(num) {
   return Math.sqrt(num);
 }
+function cuberoot(num) {
+  return Math.cbrt(num);
+}
 
 function factorial(num) {
   if (num < 0) return undefined;
@@ -30,5 +33,6 @@ input.addEventListener("change", () => {
     para.textContent += `${num} cubed is ${cubed(num)}. `;
     para.textContent += `${num} factorial is ${factorial(num)}. `;
     para.textContent += `${num} squareroot is ${squareroot(num)}. `;
+    para.textContent += `${num} cuberoot is ${cuberoot(num)}. `;
   }
 });
