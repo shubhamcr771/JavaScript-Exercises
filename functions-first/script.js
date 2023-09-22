@@ -20,12 +20,12 @@ function displayMessage(msgText, msgType) {
 
   closeBtn.addEventListener("click", () => panel.parentNode.removeChild(panel));
   if (msgType === "warning") {
-    msg.style.backgroundImage = "url(icons/warning.png)";
-    panel.style.backgroundColor = "red";
+    msg.style.backgroundImage = "url(warning.png)";
+    panel.style.backgroundColor = "blue";
     alert("Warning");
   } else if (msgType === "chat") {
-    msg.style.backgroundImage = "url(icons/chat.png)";
-    panel.style.backgroundColor = "red";
+    msg.style.backgroundImage = "url(chat.png)";
+    panel.style.backgroundColor = "grey";
   } else {
     msg.style.paddingLeft = "20px";
   }
