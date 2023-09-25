@@ -12,5 +12,5 @@ const person = {
 person.name.last = "Singh";
 person["eye"] = "black";
 person.farewell = function() {
-  console.log("Bye Bye Shubham singh")
+  console.log("Bye Bye Shubham Singh")
 };
