@@ -9,6 +9,10 @@ const person = {
     console.log(`Hi! I'm ${this.name[0]}.`);
   },
 };
+const myDataName = "height";
+const myDataValue = "1.75m";
+person[myDataName] = myDataValue;
+
 person.name.last = "Singh";
 person["eye"] = "black";
 person.farewell = function() {
