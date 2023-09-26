@@ -9,8 +9,10 @@ const person = {
     console.log(`Hi! I'm ${this.name[0]}.`);
   },
 };
-const myDataName = "height";
-const myDataValue = "1.75m";
+
+
+const myDataName = "city";
+const myDataValue = "Patna";
 person[myDataName] = myDataValue;
 
 person.name.last = "Singh";
