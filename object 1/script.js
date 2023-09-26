@@ -7,7 +7,9 @@ const cat = {
   },
 };
 
-// Add your code here
+let catName = cat['name'];
+cat.greeting();
+cat['color'] = 'blue';
 
 // Don't edit the code below here!
 
