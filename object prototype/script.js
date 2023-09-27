@@ -1,5 +1,5 @@
 const s = document.querySelector("h1");
-const a = document.createAttribute("h1");
+
 
 let profile = {
     name: "Shubham",
